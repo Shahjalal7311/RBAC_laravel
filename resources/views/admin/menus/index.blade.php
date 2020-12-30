@@ -19,7 +19,7 @@
                     <div class="col-md-6">  
                         <span class="shortlink">
                             <a  class="btn btn-outline-info btn-lg" href="{{ route('menuadd.page')}}">
-                                <i class="fa fa-plus-circle"></i> Add New
+                                <i class="fa fa-plus-circle"></i> Add
                             </a>
                         </span>
                     </div>

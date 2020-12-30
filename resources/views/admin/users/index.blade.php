@@ -19,7 +19,7 @@
                     <div class="col-md-6">
                         <span class="shortlink">
                             <a style="margin-right: 0px; font-size: 16px;" class="btn btn-outline-info btn-lg" href="{{ route('useradd.page') }}">
-                                <i class="fa fa-plus-circle"></i> Add New
+                                <i class="fa fa-plus-circle"></i> Add
                             </a>                            
                         </span>
                     </div>

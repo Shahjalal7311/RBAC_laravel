@@ -23,10 +23,10 @@
                     <div class="col-md-6">
                         <span class="shortlink">
                             <a style="margin-left: 0px; font-size: 16px;" class="btn btn-outline-info btn-lg"  href="{{ route($goBackLink) }}">
-                                <i class="fa fa-arrow-circle-left"></i> Go Back
+                                <i class="fa fa-arrow-circle-left"></i> Back
                             </a>
                             <a style="margin-left: 0px; font-size: 16px;" class="btn btn-outline-info btn-lg" href="{{ route('userMenu.ActionLinkAdd',$menuId) }}">
-                                <i class="fa fa-plus-circle"></i> Add new
+                                <i class="fa fa-plus-circle"></i> Add
                             </a>
                         </span>
                     </div>

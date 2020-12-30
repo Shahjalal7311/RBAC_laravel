@@ -15,7 +15,7 @@
     <div class="col-12">
         <div class="card">
     <span class="shortlink">
-         <a class="btn btn-info"  href="{{ route('users.index') }}">Go Back</a> 
+         <a class="btn btn-info"  href="{{ route('users.index') }}"> Back</a> 
          
     </span>
             <div class="card-body">

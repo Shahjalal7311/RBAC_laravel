@@ -27,7 +27,7 @@
                     <div class="col-md-6">
                         <span class="shortlink">
                             <a style="margin-left: 0px; font-size: 16px;" class="btn btn-outline-info btn-lg"  href="{{ route('usermenuLink.index',$parentMenuId) }}">
-                                <i class="fa fa-arrow-circle-left"></i> Go Back
+                                <i class="fa fa-arrow-circle-left"></i> Back
                             </a>
                         </span>
                     </div>
