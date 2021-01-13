@@ -94,3 +94,39 @@ The Laravel framework is open-source software licensed under the [MIT license](h
  - php artisan route:clear
  - php artisan clear-compiled
  - php artisan config:cache  
+
+# Setting up Capistrano
+  After installing Capistrano, you can use it to initialize a skeleton configuration. To setup Capistrano, please follow the documentation provided on their website:
+  https://github.com/capistrano/laravel
+  http://capistranorb.com/documentation/getting-started/preparing-your-application/
+
+  This will generate the following files:
+  ```
+  .
+  ├── Capfile                # Used to manage Capistrano and its dependencies
+  ├── config
+  │   ├── deploy
+  │   │   ├── production.rb  # Configuration for production environment
+  │   │   └── staging.rb     # Configuration for staging environment
+  │   └── deploy.rb          # Common configuration for all environments
+  └── lib
+      └── capistrano
+          └── tasks          # Customized Capistrano tasks for your project
+  ```
+  * Update config/deploy.rb
+
+    ```
+    set :application, "${projectName}"
+    set :repo_url, "${REPO_URL}"
+
+    ```
+  - run command in config/deploy directory: cd config/deploy and run cp production.rb.example production.rb
+  - run command in config/deploy directory: cd config/deploy and run cp staging.rb.example staging.rb 
+  - run command in config directory: cd config and run cp deploy.rb.example deploy.rb  
+  - Change app name and deploy_path and terget branch name in config/deploy/{env}.rb file
+  - Run the command to check deply
+    - deploy:check
+
+  ```
+  bundle exec cap staging deploy:check
+  ```

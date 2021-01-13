@@ -4,6 +4,10 @@
 /public/uploads
 /storage/*.key
 /vendor
+/log
+/config/deploy/production.rb
+/config/deploy/staging.rb
+/config/deploy.rb
 .history
 .env
 .env.backup
