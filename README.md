@@ -120,13 +120,13 @@ The Laravel framework is open-source software licensed under the [MIT license](h
     set :repo_url, "${REPO_URL}"
 
     ```
-  - run command in config/deploy directory: cd config/deploy and run cp production.rb.example production.rb
-  - run command in config/deploy directory: cd config/deploy and run cp staging.rb.example staging.rb 
-  - run command in config directory: cd config and run cp deploy.rb.example deploy.rb  
-  - Change app name and deploy_path and terget branch name in config/deploy/{env}.rb file
-  - Run the command to check deply
-    - deploy:check
+    - run command in config/deploy directory: cd config/deploy and run cp production.rb.example production.rb
+    - run command in config/deploy directory: cd config/deploy and run cp staging.rb.example staging.rb 
+    - run command in config directory: cd config and run cp deploy.rb.example deploy.rb  
+    - Change app name and deploy_path and terget branch name in config/deploy/{env}.rb file
+    - Run the command to check deply
+      - deploy:check
 
-  ```
-  bundle exec cap staging deploy:check
-  ```
+    ```
+    bundle exec cap staging deploy:check
+    ```
